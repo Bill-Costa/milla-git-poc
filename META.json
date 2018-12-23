@@ -47,7 +47,18 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Bill-Costa/milla-git-poc/issues"
+      },
+      "homepage" : "https://github.com/Bill-Costa/milla-git-poc",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Bill-Costa/milla-git-poc.git",
+         "web" : "https://github.com/Bill-Costa/milla-git-poc"
+      }
+   },
+   "version" : "0.02",
    "x_generated_by_perl" : "v5.26.2",
    "x_serialization_backend" : "Cpanel::JSON::XS version 4.08",
    "x_static_install" : 1
